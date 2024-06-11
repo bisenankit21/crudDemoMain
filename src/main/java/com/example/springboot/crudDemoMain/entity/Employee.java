@@ -15,7 +15,7 @@ public class Employee {
     private String lastName;
     @Column(name = "email")
     private String email;
-//no args constructor required by JPA
+    //no args constructor required by JPA
     public Employee() {
     }
 
